@@ -1,0 +1,63 @@
+﻿生成启动时间为 2014/8/28 星期四 下午 8:59:16。
+     1>项目“C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Simple_DB\Simple_DB.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Btree\btree.cpp Api.cpp CatalogManager.cpp IndexManager.cpp Interpreter.cpp RecordManager.cpp
+         RecordManager.cpp
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(10): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(11): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(27): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(28): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(29): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\recordmanager.cpp(39): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+         Interpreter.cpp
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\interpreter.cpp(31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\interpreter.cpp(43): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\interpreter.cpp(44): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         IndexManager.cpp
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\indexmanager.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\indexmanager.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         CatalogManager.cpp
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\catalogmanager.cpp(8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\catalogmanager.cpp(9): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\catalogmanager.cpp(10): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\string.h(115) : 参见“strcat”的声明
+     1>c:\users\administrator\documents\visual studio 2012\projects\simple_db\simple_db\catalogmanager.cpp(11): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs2012\vc\include\stdio.h(218) : 参见“fopen”的声明
+         Api.cpp
+         btree.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Simple_DB.res" Simple_DB.rc 
+       Link:
+         D:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Debug\Simple_DB.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Debug\Simple_DB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Debug\Simple_DB.lib" /MACHINE:X86 Debug\Simple_DB.res
+         Debug\btree.obj
+         Debug\Api.obj
+         Debug\CatalogManager.obj
+         Debug\IndexManager.obj
+         Debug\Interpreter.obj
+         Debug\RecordManager.obj
+         Simple_DB.vcxproj -> C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Debug\Simple_DB.exe
+     1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2012\Projects\Simple_DB\Simple_DB\Simple_DB.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93
